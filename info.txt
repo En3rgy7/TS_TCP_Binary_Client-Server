@@ -1,0 +1,21 @@
+﻿OOOOOAAAAIIINNNNNNNNSSSS
+O - operation
+A - answer
+I - id
+N - number
+S - supplement
+
+#xxxxx Operacja
+    #xxxx odpowiedz
+
+#00000 - nawiazanie polaczenia
+    #0000 - wysłanie id (serwer)
+    #0001 - zadanie wejscia na serwer, zadanie id (klient)
+#00001 - liczba prob
+    #0000 - wyslanie liczby L do okreslenia ilosci prob (klient)
+    #0001 - wyslanie ilosci prob(serwer)
+#00010 - Zgadywanie liczby
+    #0000 - wysylam zgadywana liczbe (klient)
+    #0001 - niezgadl (serwer)
+    #0010 - zgadl (serwer)
+    #0011 - przeciwnik byl szybszy (serwer)
